@@ -1,0 +1,65 @@
+.roadmap {
+  padding: 64px 15%;
+
+  & &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0 0 40px;
+  }
+}
+
+.roadmap-list {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 20px;
+
+  & &__item {
+    position: relative;
+    padding-top: 40px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      background: #101010;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 40px;
+      right: 20px;
+      height: 1px;
+      background-image: linear-gradient(to right, #101010 10%, #fff 0%);
+      background-position: top;
+      background-size: 10px 1px;
+      background-repeat: repeat-x;
+    }
+
+    &-title {
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 600;
+      margin: 0 0 4px 0;
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    &-link {
+      font-weight: 700;
+      color: #EE080D;
+      text-decoration: none;
+    }
+  }
+}
