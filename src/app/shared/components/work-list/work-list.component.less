@@ -12,9 +12,28 @@
   }
 }
 
-
 .work-list {
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: repeat(3, 33.333%);
   grid-template-rows: repeat(3, auto);
+  grid-row-gap: 64px;
+
+  & &__item {
+    padding: 0 20px;
+    text-align: center;
+
+    &-title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      margin: 24px 0 8px;
+    }
+
+    &-text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      margin: 0;
+    }
+  }
 }

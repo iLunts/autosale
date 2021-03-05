@@ -10,6 +10,7 @@ import { FeedbackFormComponent } from './shared/components/feedback-form/feedbac
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { RoadmapComponent } from './shared/components/roadmap/roadmap.component';
 import { WantToSellComponent } from './shared/components/want-to-sell/want-to-sell.component';
+import { BrandsComponent } from './shared/components/brands/brands.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WantToSellComponent } from './shared/components/want-to-sell/want-to-se
     FeedbackFormComponent,
     FooterComponent,
     RoadmapComponent,
-    WantToSellComponent
+    WantToSellComponent,
+    BrandsComponent
   ],
   imports: [
     BrowserModule,

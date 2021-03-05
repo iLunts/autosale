@@ -1,0 +1,39 @@
+.feedback {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-row-gap: 64px;
+
+  & &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #DE070C;
+    padding-left: 15%;
+    min-height: 600px;
+    color: #fff;
+
+    &-title {
+      display: block;
+      width: 400px;
+      font-size: 48px;
+      line-height: 64px;
+      font-weight: 800;
+      margin: 0 0 20px 0;
+    }
+    
+    &-text {
+      display: block;
+      width: 420px;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+
+  & &__form {
+    background: rgba(222, 7, 12, 0.2);
+    padding: 32px 0;
+  }
+}
