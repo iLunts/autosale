@@ -15,6 +15,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { RoadmapComponent } from './shared/components/roadmap/roadmap.component';
 import { WantToSellComponent } from './shared/components/want-to-sell/want-to-sell.component';
 import { BrandsComponent } from './shared/components/brands/brands.component';
+import { CommunicationComponent } from './shared/components/communication/communication.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BrandsComponent } from './shared/components/brands/brands.component';
     FooterComponent,
     RoadmapComponent,
     WantToSellComponent,
-    BrandsComponent
+    BrandsComponent,
+    CommunicationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,55 @@
+.communication {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 64px 100px 64px 48px;
+  margin: 150px 0 200px;
+  // margin: 150px 20% 200px;
+  background: #DE070C;
+  border-radius: 16px;
+  color: #fff;
+
+  & &__content {
+    display: block;
+    max-width: 420px;
+  }
+
+  & &__mobile {
+    display: block;
+    margin-top: -200px;
+    margin-bottom: -200px;
+  }
+
+  & &__title {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin: 0 0 32px 0;
+  }
+
+  & &__text {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    margin: 0 0 32px 0;
+  }
+
+  & &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+
+    &-logo {
+      margin-right: 15px;
+    }
+
+    &+.communication__link {
+      margin-top: 32px;
+    }
+  }
+}
