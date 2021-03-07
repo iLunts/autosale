@@ -36,10 +36,10 @@ import { WorkListComponent } from './shared/components/work-list/work-list.compo
     BrowserAnimationsModule,
     BrowserModule,
     CarouselModule,
-    FormsModule,
+    // FormsModule,
     HttpClientModule,
     InlineSVGModule.forRoot(),
-    ReactiveFormsModule,
+    // ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
