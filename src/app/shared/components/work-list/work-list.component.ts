@@ -35,13 +35,13 @@ export class WorkListComponent implements OnInit {
       img: './assets/img/work-icon.png',
       title: 'Выкуп дорогих авто',
       text: 'Сложно продать дорогой автомобиль по хорошей цене - обращайтесь к нам.',
-      isMobile: true
+      isMobile: false
     },
     {
       img: './assets/img/work-icon.png',
       title: 'В любой точке страны',
       text: 'Наш оценщик готов бесплатно выехать в любую точку Беларуси, даже самую отдаленную.',
-      isMobile: true
+      isMobile: false
     },
   ];
 

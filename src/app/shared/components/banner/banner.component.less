@@ -13,7 +13,7 @@
 
   & &__content {
     padding: 175px 0;
-    width: 500px;
+    max-width: 500px;
 
     &-title {
       font-size: 72px;
@@ -52,6 +52,40 @@
       font-size: 44px;
       line-height: 60px;
       text-decoration: none;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .banner {
+    background-position: -350px center;
+    background-size: cover;
+    
+    & &__content {
+      padding: 140px 16px 140px 0;
+      width: 230px;
+
+      &-title {
+        font-size: 29px;
+        line-height: 40px;
+      }
+
+      &-region {
+        font-size: 29px;
+        line-height: 40px;
+      }
+
+      &-text {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      &-phone {
+        height: 43px;
+        font-size: 20px;
+        line-height: 28px;
+        padding: 0 15px;
+      }
     }
   }
 }

@@ -1,13 +1,15 @@
 <div class="container">
   <div class="work">
     <h2 class="work__title">Как мы работаем</h2>
-  
+
     <ul class="work-list">
-      <li class="work-list__item" *ngFor="let item of workList">
-        <img class="work-list__item-icon" [src]="item.img" alt="">
-        <h4 class="work-list__item-title">{{item.title}}</h4>
-        <p class="work-list__item-text">{{item.text}}</p>
-      </li>
+      <ng-container *ngFor="let item of workList">
+        <li class="work-list__item" *ngIf="item.isMobile">
+          <img class="work-list__item-icon" [src]="item.img" alt="">
+          <h4 class="work-list__item-title">{{item.title}}</h4>
+          <p class="work-list__item-text">{{item.text}}</p>
+        </li>
+      </ng-container>
     </ul>
   </div>
 </div>

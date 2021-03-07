@@ -5,7 +5,6 @@
   position: relative;
   padding: 64px 100px 64px 48px;
   margin: 150px 0 200px;
-  // margin: 150px 20% 200px;
   background: #DE070C;
   border-radius: 16px;
   color: #fff;
@@ -50,6 +49,27 @@
 
     &+.communication__link {
       margin-top: 32px;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .communication {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 48px;
+    margin: 60px 8px 56px;
+
+    & &__mobile {
+      margin-top: 40px;
+      margin-bottom: 0;
+
+      &-img{
+        display: block;
+        width: 100%;
+      }
     }
   }
 }
