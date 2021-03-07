@@ -4,7 +4,7 @@
 
     <ul class="work-list">
       <ng-container *ngFor="let item of workList">
-        <li class="work-list__item" *ngIf="item.isMobile">
+        <li class="work-list__item" [class._hide]="!item.isMobile">
           <img class="work-list__item-icon" [src]="item.img" alt="">
           <h4 class="work-list__item-title">{{item.title}}</h4>
           <p class="work-list__item-text">{{item.text}}</p>

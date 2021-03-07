@@ -22,10 +22,10 @@ export class BrandsComponent implements OnInit {
         items: 3
       },
       400: {
-        items: 4
+        items: 3
       },
       740: {
-        items: 5
+        items: 3
       },
       940: {
         items: 6
@@ -34,12 +34,12 @@ export class BrandsComponent implements OnInit {
   }
 
   brandList: any[] = [
-    {
-      id: 1,
-      img: './assets/img/brands/audi.png',
-      alt: '',
-      title: '',
-    },
+    // {
+    //   id: 1,
+    //   img: './assets/img/brands/audi.png',
+    //   alt: '',
+    //   title: '',
+    // },
     {
       id: 2,
       img: './assets/img/brands/bmw.png',
