@@ -4,12 +4,17 @@
   grid-template-columns: repeat(2, 50%);
   grid-row-gap: 64px;
 
+  & &__content{
+    display: block;
+    width: 600px;
+  }
+
   & &__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
     background: #DE070C;
-    padding-left: 40%;
     min-width: 600px;
     color: #fff;
 
